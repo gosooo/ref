@@ -2,7 +2,7 @@
 title: SYS ~~ filesystem
 description: linux filesystem and storage stuff
 published: true
-date: 2019-11-07T12:09:20.123Z
+date: 2019-11-07T12:16:44.025Z
 tags: sys, sys-filesystem
 ---
 
@@ -16,4 +16,12 @@ Your content here
 # essentials
 du -khs *
 
+```
+
+### ls ~~ list
+
+```
+# essentials
+ls -lrt
+ls -al
 ```
