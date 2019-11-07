@@ -2,7 +2,7 @@
 title: sre-docker
 description: Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers
 published: true
-date: 2019-11-07T14:30:14.070Z
+date: 2019-11-07T14:30:27.880Z
 tags: sre, sre-docker
 ---
 
@@ -45,7 +45,5 @@ RUN ln -s /usr/local/bin/docker-entrypoint.sh / # backwards compat
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["postgres"]
 ```
-
-
 
 [link-001] : https://success.docker.com/article/use-a-script-to-initialize-stateful-container-data
