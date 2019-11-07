@@ -1,9 +1,9 @@
 ---
-title: Sysadmin Common Stuff
-description: Here commons pieces of code for play around Linux Systems
+title: SYS ~~ Common Stuff
+description: Here commons pieces of code for play around Linux System
 published: true
-date: 2019-11-07T00:46:47.929Z
-tags: 
+date: 2019-11-07T07:56:57.013Z
+tags: sys
 ---
 
 # Header
