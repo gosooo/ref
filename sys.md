@@ -2,7 +2,7 @@
 title: SYS ~~ Common Stuff
 description: Here commons pieces of code for play around Linux System
 published: true
-date: 2019-11-12T10:56:54.167Z
+date: 2019-11-12T11:04:02.129Z
 tags: sys
 ---
 
@@ -17,6 +17,7 @@ ls -lrt
 
 ## tool
 ### ssh-add
+https://www.cyberciti.biz/faq/unix-linux-appleosx-bsd-ssh-add-agent-command-set-lifetime/
 
 ```
 #··· listing current loaded keys
