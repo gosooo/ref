@@ -2,7 +2,7 @@
 title: SYS ~~ Common Stuff
 description: Here commons pieces of code for play around Linux System
 published: true
-date: 2019-11-07T07:56:57.013Z
+date: 2019-11-12T10:56:54.167Z
 tags: sys
 ---
 
@@ -13,4 +13,27 @@ Your content here
 crontab -l -u Adminvas
 du -khs *
 ls -lrt
+```
+
+## tool
+### ssh-add
+
+```
+#··· listing current loaded keys
+ssh-add -l
+ssh-add -L
+
+#···deleting specific key
+ssh-add -d ~/.ssh/random_rsa
+# deleting all the keys
+ssh -D
+
+
+#···locking the agent -x
+sh-add -x
+#···unlocking the agent -X
+ssh-add -X
+
+#···lifetime set to 60 seconds
+ssh-add -t 60  ~/.ssh/random_rsa
 ```
