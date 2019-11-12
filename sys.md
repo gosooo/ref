@@ -2,7 +2,7 @@
 title: SYS ~~ Common Stuff
 description: Here commons pieces of code for play around Linux System
 published: true
-date: 2019-11-12T11:08:25.964Z
+date: 2019-11-12T11:09:54.034Z
 tags: sys
 ---
 
