@@ -2,16 +2,18 @@
 title: sre-docker
 description: Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers
 published: true
-date: 2019-11-07T14:32:12.840Z
+date: 2019-11-14T09:42:26.224Z
 tags: sre, sre-docker
 ---
 
 # Header
 Your content here
 
+```
+docker info
+```
+
 http://crosbymichael.com/advanced-docker-volumes.html
-
-
 
 How to use an [entrypoint][link-001] script to initialize container data at runtime
 
