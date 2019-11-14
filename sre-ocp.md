@@ -2,7 +2,7 @@
 title: SRE ~~ ocp
 description: OpenShift Container Platform offers enterprises full control over their Kubernetes environments
 published: true
-date: 2019-11-14T15:54:39.064Z
+date: 2019-11-14T15:55:22.372Z
 tags: sre, sre-ocp
 ---
 
@@ -24,6 +24,5 @@ oc rsh
 
 ```
 oc idle django-psql-example
-
 ```
 
