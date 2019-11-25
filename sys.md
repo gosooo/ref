@@ -2,7 +2,7 @@
 title: SYS ~~ Common Stuff
 description: Here commons pieces of code for play around Linux System
 published: true
-date: 2019-11-12T11:09:54.034Z
+date: 2019-11-25T14:34:13.394Z
 tags: sys
 ---
 
@@ -42,3 +42,16 @@ ssh-add -X
 #··· weeks ssh-add -t 2w
 ssh-add -t 60  ~/.ssh/random_rsa
 ```
+
+
+# HDMI status
+```
+[aa@localhost ~]$ cat /sys/class/drm/card0/*HDMI*/status
+disconnected
+[aa@localhost ~]$ cat /sys/class/drm/card0/*HDMI*/status
+connected
+```
+
+
+
+
